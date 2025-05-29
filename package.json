@@ -1,0 +1,27 @@
+{
+  "name": "siteservesf",
+  "version": "1.0.0",
+  "description": "Website for SiteServeSF",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiffanhuang/SiteServeSF.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tiffanhuang/SiteServeSF/issues"
+  },
+  "homepage": "https://github.com/tiffanhuang/SiteServeSF#readme",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "nodemon": "^3.1.10"
+  }
+}

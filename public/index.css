@@ -1,0 +1,47 @@
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+.img{
+ max-width:50%;
+  size:auto;
+  border:2px solid gray;
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+    
+}
+
+
+ .column {
+        float: left;
+        width: 33.33%;
+       padding:none;
+    }
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+ input[type="datetime-local"]{
+    margin-left: auto;
+   margin-right:auto;
+  }
+
+
+#container{
+    width: auto;
+}
+#floated{
+    float: left;
+    width: 300px;
+  padding:35px;
+  padding-top:0px;
+  padding-bottom:10px;
+}
+
+address {
+  display: block;
+  font-style: italic;
+}
